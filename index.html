@@ -19,52 +19,69 @@
                 <div id="header">
 					
 					<!-- Exemple Menu -->
-                    <ul id="nav">
-                        <li class="first">
-                            <a href="#">Menu 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Menu 2</a>
-                            <ul>
-                                <li class="first"><a href="#">Sous-menu 1</a></li>
-                                <li><a href="#">Sous-menu 2</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Menu 3</a>
-                            <ul>
-                                <li class="first"><a href="#">Sous-menu 1</a></li>
-                                <li><a href="#">Sous-menu 2</a></li>
-                                <li><a href="#">Sous-menu 3</a></li>
-                                <li><a href="#">Sous-menu 4</a></li>
-                            </ul>
-                        </li>
-					</ul>
+					<div id="nav">
+						<ul>
+							<li class="first">
+								<a href="#">Menu 1</a>
+							</li>
+							<li>
+								<a href="#">Menu 2</a>
+								<ul>
+									<li class="first"><a href="#">Sous-menu 1</a></li>
+									<li><a href="#">Sous-menu 2</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Menu 3</a>
+								<ul>
+									<li class="first"><a href="#">Sous-menu 1</a></li>
+									<li><a href="#">Sous-menu 2</a></li>
+									<li><a href="#">Sous-menu 3</a></li>
+									<li><a href="#">Sous-menu 4</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="clear"></div>
+					<!--<br /><br /><br /><br /><br /><br /><br /><br /><br />-->
+					
                 </div>
 				
                 <div id="container">
                 
-                    <div class="breadcrumb">Accueil</div>
+                    <div class="breadcrumb">
+						<a href="#">Accueil</a> > 
+						<a href="#">Page</a> >
+						<a href="#">Sous-page</a>
+					</div>
                     
                     <div id="content">
 					
 						<!-- Exemple de Page Contenu -->
-						<h1>Titre pricipal</h1>
-						<h2>Sous titre</h2>
-						<h2>Sous sous titre</h2>
+						<h1>Titre pricipal H1</h1>
+						<h2>Sous titre H2 </h2>
+						<h3>Sous sous titre H3</h3>
 						<p>Un paragraphe<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Curabitur et diam nec justo tempor molestie nec ac sapien. Nullam suscipit dapibus lorem, vel pulvinar ipsum dictum sit amet. Pellentesque turpis felis, commodo nec laoreet eget, vestibulum vel elit. Nullam non bibendum quam</p>
-						<a href="#">Un lien</a>
+						<a href="#">Un lien</a><br /><br />
 						<ul>
 							<li>liste 1</li>
 							<li>liste 2</li>
 							<li>liste 3</li>
 							<li>liste 4</li>
 						</ul>
-						<p>Une phrase avec du <strong>bold</strong>.</p>
-                    
+						<p>Une phrase avec du <strong>bold</strong>.<br /><br /></p>
+						
                         <!-- Exemple de Formulaire -->
                         <h2>Formulaire</h2><br /><br />
                         <form action="#">
+                            <p class="radio">
+                                <span>Civilité:</span>
+                                <input type="radio" id="Mr" name="civilite" value="Mr" /><label for="Mr">Mr</label>
+                                <input type="radio" id="Mme" name="civilite" value="Mme" /><label for="Mme">Mme</label>
+                                <input type="radio" id="Mlle" name="civilite" value="Mlle" /><label for="Mlle">Mlle</label>
+                                <span class="error">Ce champ est obligatoire</span>
+                            </p>
                             <p>
                                 <label for="firstName">Prénom:</label>
                                 <input type="text" id="firstName" name="#" value="" />
@@ -79,14 +96,7 @@
                                 <label for="email">Email:</label>
                                 <input type="text" id="email" name="#" value="" />
                                 <span class="error">Ce champ est obligatoire</span>
-                            </p>
-                            <p class="radio">
-                                <span>Civilité:</span>
-                                <input type="radio" id="Mr" name="civilite" value="Mr" /><label for="Mr">Mr</label>
-                                <input type="radio" id="Mme" name="civilite" value="Mme" /><label for="Mme">Mme</label>
-                                <input type="radio" id="Mlle" name="civilite" value="Mlle" /><label for="Mlle">Mlle</label>
-                                <span class="error">Ce champ est obligatoire</span>
-                            </p>        
+                            </p>       
                             <p class="cp">
                                 <label for="postalCode">Code postal:</label>
                                 <input type="text" id="postalCode" maxlength="5" name="#" value="" />
@@ -114,10 +124,7 @@
                         
                         <div class="clear"></div>
                         
-                        <br /><br /><br /><br />
-                        <br /><br /><br /><br />
-                        <br /><br /><br /><br />
-                        <br /><br /><br /><br />
+                        <br /><br />
                         
                     </div>
                     
