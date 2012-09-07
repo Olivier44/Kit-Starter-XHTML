@@ -3,7 +3,7 @@
 /*      =FONTS
 /*      =STRUCTURE
 /*        @Header
-/*        	@#navigation
+/*        	@navigation
 /*        @Container
 /*			@Breadcrumb
 /*        	@Content	
@@ -209,7 +209,7 @@ acronym, abbr {
 }
 
 
-/*      @#navigation
+/*      @navigation
 ------------------------------------ */
 #nav {
 	float: left;
