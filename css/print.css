@@ -1,0 +1,43 @@
+/*          =IMPRESSION
+---------------------------------------- */
+
+body {
+    background: #FFF;
+    color: #000;
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+}
+
+/* Elements à masquer à l'impression
+#nav, #footer {
+    display: none;
+}
+*/
+
+h1 {
+    font-size: 120%;
+    padding-top: 7%;
+}
+
+hr {
+    background: #FFF;
+    border: none;
+    border-bottom: 1pt solid #696969;
+    color: #FFF;
+    height: 0;
+}
+
+a img {
+    border: none;
+}
+
+
+a {
+ color: #333;
+}
+
+/* ajoute url aprés le lien */
+a:after {
+    content: " (" attr(href) ") ";
+    color: #666;
+}
